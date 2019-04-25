@@ -40,4 +40,8 @@ function sequencer(){
 
 sequencer();
 
+function uncheckAll(){
+    $('input[type="checkbox"]:checked').prop('checked',false);
+ }
+
 // more info (change bpm etc): https://tonejs.github.io/docs/r13/Transport
