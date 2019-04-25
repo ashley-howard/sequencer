@@ -21,15 +21,14 @@
 
 
     <div class="container">
-
        
         <div class="row">
             <!--Sequencer-->
-            <div class="col-10">
+            <div class="col-9 col-sequencer">
 <!--Kick-->
 <div class="row">
         <div class="col-3 name">Kick</div>
-        <div class="col-8 checkboxes">
+        <div class="col-9 checkboxes">
             <div class="kick">
                 <input class="kick" type="checkbox">
                 <input class="kick" type="checkbox">
@@ -47,7 +46,7 @@
 <!--Snare-->
 <div class="row">
         <div class="col-3 name">Snare</div>
-        <div class="col-8 checkboxes">
+        <div class="col-9 checkboxes">
                 <div class="snare">
                         <input class="snare" type="checkbox">
                         <input class="snare" type="checkbox">
@@ -64,7 +63,7 @@
       <!--Tom-->
 <div class="row">
         <div class="col-3 name">Tom</div>
-        <div class="col-8 checkboxes">
+        <div class="col-9 checkboxes">
                 <div class="tom">
                         <input class="tom" type="checkbox">
                         <input class="tom" type="checkbox">
@@ -81,7 +80,7 @@
       <!--Hihat-->
 <div class="row">
         <div class="col-3 name">Hi-hat</div>
-        <div class="col-8 checkboxes">
+        <div class="col-9 checkboxes">
                 <div class="hihat">
                         <input class="hihat" type="checkbox">
                         <input class="hihat" type="checkbox">
@@ -98,7 +97,7 @@
       <!--Clap-->
 <div class="row">
         <div class="col-3 name">Clap</div>
-        <div class="col-8 checkboxes">
+        <div class="col-9 checkboxes">
                 <div class="clap">
                         <input class="clap" type="checkbox">
                         <input class="clap" type="checkbox">
@@ -114,20 +113,18 @@
             </div>
 
             <!--Controls-->
-            <div class="col-2">
-                    <div class="controls">  
+            <div class="col-3 col-controls">
+                    <div class="controls text-center">  
                             <h2>Controls</h2>
-                            <button onclick="sequencer()">Start</button>
-                            <button onclick="">Stop</button>
-                            <button onclick="">Reset</button>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button onclick="" type="button" class="btn btn-outline-primary">Stop</button>
+                                    <button onclick="sequencer()" type="button" class="btn btn-outline-success">Resume</button>                                    
+                                    <button onclick="" type="button" class="btn btn-outline-danger">Reset</button>
+                                  </div>
                         </div>
                 </div>
             
         </div>
-
-
-            
-
 
 </div>
 

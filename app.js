@@ -7,7 +7,7 @@ function sequencer(){
     let index = 0; // go through each input to check if each sound is playing
  
     Tone.Transport.scheduleRepeat(repeat,'8n'); // how many times it should loop "8 notes"
-    Tone.Transport.start(); // need to connect this to start button = starts counting
+    Tone.Transport.start(); // starts counting
 
     function repeat(){
         let step = index % 8;
