@@ -1,0 +1,53 @@
+
+.jumbotron {
+color: white;
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(left, #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+}
+
+.name {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:35px;
+    border:2px solid #555;
+    padding: 2em;
+}
+input[type='checkbox'][class='kick']:checked {
+    background: #8AAFFF;
+}
+
+input[type='checkbox'][class='snare']:checked {
+    background:#E17FF5;
+}
+
+input[type='checkbox'][class='tom']:checked {
+    background:#FF9979;
+}
+
+input[type='checkbox'][class='hihat']:checked {
+    background:#E8C961;
+}
+
+input[type='checkbox'][class='clap']:checked {
+    background:#B2FF8C;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.checkboxes {
+    justify-content: space-evenly;
+    display: flex;
+}
